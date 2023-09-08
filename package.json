@@ -1,0 +1,24 @@
+{
+  "name": "belajarvite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npx tailwindcss -i ./src/css/globalinput.css -o ./src/css/global.css --watch\" \"vite\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  },
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^8.2.1",
+    "typed.js": "^2.0.16"
+  }
+}
